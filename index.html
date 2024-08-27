@@ -53,6 +53,101 @@
             </li>
           </ul>
         </address>
+        <button class="button-icon-menu" type="button">
+          <svg class="menu-svg" width="24" height="24">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu is-open">
+        <div class="container-menu">
+          <button type="button" class="mobile-button">
+            <svg class="close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-Cross"></use>
+            </svg>
+          </button>
+          <nav class="menu-navigation">
+            <ul class="mobile-menu-nav">
+              <li class="mobile-list">
+                <a href="./index.html" target="_blank" class="mobile-link"
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-list">
+                <a href="" target="_blank" class="mobile-link">Portfolio</a>
+              </li>
+              <li class="mobile-list">
+                <a href="" target="_blank" class="mobile-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobile-info">
+            <ul class="mobile-contacts">
+              <li>
+                <a
+                  href="mailto:info@devstudio.com"
+                  target="_blank"
+                  class="mobile-contacts-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a
+                  href="tel:+110001111111"
+                  target="_blank"
+                  class="mobile-contacts-link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mobile-social-links">
+            <li class="icon">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="link-icon"
+              >
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon">
+              <a
+                href="https://x.com/?lang=ua"
+                target="_blank"
+                class="link-icon"
+              >
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon">
+              <a
+                href="https://uk-ua.facebook.com/"
+                target="_blank"
+                class="link-icon"
+              >
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon">
+              <a
+                href="https://ua.linkedin.com/"
+                target="_blank"
+                class="link-icon"
+              >
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -625,8 +720,10 @@
                   <use href="./images/icons.svg#icon-Chek"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="privat-police" href="#">Privacy Policy</a>
+              <span class="modal-privat">
+                I accept the terms and conditions of the
+                <a class="privat-police" href="#">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button type="button" class="button-footer">Send</button>
